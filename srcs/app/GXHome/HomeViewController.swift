@@ -57,7 +57,7 @@ public class HomeViewController: UIViewController {
     }
 
     public override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        let playerVC = GXPlayerIGListTestVC.init()
+        let playerVC = GXURLViewController.init()
         self.navigationController?.pushViewController(playerVC, animated: true)
     }
 

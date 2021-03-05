@@ -1,5 +1,7 @@
 #import %workspace%/bilirules.bazelrc
 
+# 指定Xcode版本
+#build --xcode_version=12.3
 #build --apple_platform_type=ios
 #build --announce_rc
 #build --remote_http_cache=http://bazel-cache.bilibili.co/ios --remote_local_fallback
